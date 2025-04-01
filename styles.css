@@ -37,6 +37,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 th,
@@ -47,7 +48,7 @@ td {
 }
 
 th {
-  background-color: #333;
+  background-color: #444;
   color: white;
   font-size: 18px;
 }
@@ -57,7 +58,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #222;
 }
 
 .censorship-section {
@@ -99,4 +100,63 @@ tr:nth-child(even) {
 
 li {
   text-align: left;
+}
+.comparison-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.comparison-item {
+  margin: 2px 0;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-item h3 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.comparison-item p {
+  color: #999;
+  line-height: 1.5;
+}
+
+.comparison-item-social {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #444;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.comparison-item-social p {
+  color: #999;
+  line-height: 1.5;
+}
+
+.comparison-item-social h3 {
+  font-size: 1.5rem;
+}
+
+.comparison-item-individuality {
+  background-color: #999;
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.comparison-item-individuality p {
+  color: #222;
+}
+
+.comparison-item-individuality h3 {
+  font-size: 1.5rem;
 }
